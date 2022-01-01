@@ -27,7 +27,7 @@ public class NearlyLuckyNumber {
             if (Character.getNumericValue(a) == 4 || Character.getNumericValue(a) == 7) {
                 c++;
             }
-        }
+        
 
         if (c==4 || c==7) {
             System.out.println("YES");
