@@ -18,7 +18,7 @@ public class StoneOnTable {
         int n = s.nextInt(); // idfk why this question asked for this variable :')
         String stones = s.next();
         int c=0;
-        for (int i=0; i<n-1; i++) {a
+        for (int i=0; i<n-1; i++) {
             if (stones.charAt(i) == stones.charAt(i+1)) {
                 c++;
             }
